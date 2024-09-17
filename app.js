@@ -14,6 +14,7 @@ goToSlide(0);
 
 //next slide
 
+
 const nextSlide = function () {
   if (curSlide === maxSLide - 1) {
     curSlide = 0;
