@@ -12,8 +12,6 @@ const goToSlide = function (slide) {
 };
 goToSlide(0);
 
-//next slide
-
 const nextSlide = function () {
   if (curSlide === maxSLide - 1) {
     curSlide = 0;
@@ -34,6 +32,3 @@ const prevSlide = function () {
 
 btnRight.addEventListener("click", nextSlide);
 btnLeft.addEventListener("click", prevSlide);
-
-
-
